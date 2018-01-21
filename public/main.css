@@ -5,7 +5,7 @@ body {
 html, body {
   margin: 0;
   padding: 0;
-  color: red;
+  color: ivory;
 }
 
 h1, h2, h3 {
@@ -29,7 +29,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: ivory;
     text-align: center;
     padding: 4px 16px;
     text-decoration: none;
@@ -50,15 +50,17 @@ footer {
     width: 100%;
     padding-left: 40%;
     background-color: #333;
-    color: white;
+    color: ivory;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .pages {
-  background-color: red;
-  height: 500px;
+  background-color: ivory;
+  overflow: scroll;
+  height: calc(100% - 88px - 167px);
   margin-top: 88px;
   margin-bottom: 167px;
   color: black;
+  padding: 20px;
 }
